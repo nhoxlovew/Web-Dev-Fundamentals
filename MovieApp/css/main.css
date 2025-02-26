@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=Roboto+Slab:wght@100..900&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    font-family: "Frank Ruhl Libre", serif;
+    }
+
+.w-150{
+    width: 600px;
+}
+.w-142{
+    height: 568px;
+}
+
+.h-100{
+    height: 400px;
+}
+
+.bg-red-rgba{
+    background: #dd1d1db3;
+}
+
+.bg-gray-rgba{
+    background: rgba(124, 122, 122, 0.8);
+}
+
+.hover\:brightness-50-img:hover div img{
+    filter: brightness(50%);
+}
+
+.h-180 {
+    height: 720px;
+}
+
+.h-113 {
+    height: 452px;
+}
+
+#movie-player{
+    width: 1280px;
+    height: 720px;
+}
+
+.text-orange-500 {
+    color: rgb(249 115 22);
+}
+
+.rounded-4xl {
+    border-radius: 40px;
+}
+
+.hover\:bg-orange-500:hover {
+    background-color: rgb(249 115 22);
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: aliceblue;
+}
+
+#movie-station{
+    width: 1548px;
+}

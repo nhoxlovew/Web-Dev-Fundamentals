@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./svg/icon.svg">
+    <title>Heart</title>
+    <link rel="stylesheet"
+        href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css?access_token=YOUR_ACCESS_TOKEN">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@latest/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <div class="h-screen flex">
+        <nav id="side-bar"
+            class="h-full w-60 bg-black flex flex-col justify-between transition-width duration-200 overflow-hidden border-r">
+            <div id="top-sidebar" class="h-20 w-full flex flex-col justify-center items-center">
+                <div id="menu-button"
+                    class="h-10 w-10 cursor-pointer rounded-full flex justify-center items-center text-2xl text-white hover:bg-gray-800 hover:text-yellow-300 transition-transform duration-300">
+                    <i class="fa-regular fa-left"></i>
+                </div>
+            </div>
+            <div id="mid-sidebar" class="h-full w-full flex flex-col justify-center items-center relative">
+                <div id="search-box"
+                    class="cursor-pointer w-full h-12 text-white px-2 absolute top-0 hover:bg-gray-800 group">
+                    <div class="w-full h-full flex justify-center items-center relative">
+                        <i class="fa-regular fa-magnifying-glass w-6 group-hover:text-yellow-300"></i>
+                        <input id="search-input" class="h-6 w-full ml-2 px-1 outline-none rounded-md text-sm text-black"
+                            type="text" placeholder="Tìm phim ...">
+                        <div id="movie-sg" class="w-full h-60 absolute top-12 border border-gray-100 bg-black rounded-md flex flex-col overflow-y-scroll hidden"></div>
+                    </div>
+                </div>
+                <div id="home"
+                    class="menu-item cursor-pointer w-full h-12 px-14 text-xl text-white flex justify-center items-center hover:bg-gray-800 hover:text-yellow-300">
+                    <i class="fa-regular fa-house w-6"></i>
+                    <p class="ml-2 w-full menu-items">Trang Chủ</p>
+                </div>
+                <div id="series-movies"
+                    class="menu-item cursor-pointer w-full h-12 px-14 text-xl text-white flex justify-center items-center hover:bg-gray-800 hover:text-yellow-300">
+                    <i class="fa-regular fa-film w-6"></i>
+                    <p class="ml-2 w-full menu-items">Phim Bộ</p>
+                </div>
+                <div id="single-movies"
+                    class="menu-item w-full h-12 px-14 text-xl text-white flex justify-center items-center hover:bg-gray-800 hover:text-yellow-300">
+                    <i class="fa-regular fa-popcorn w-6"></i>
+                    <p class="ml-2 w-full menu-items">Phim Lẻ</p> 
+                </div>
+                <div id="cartoons"
+                    class="menu-item cursor-pointer w-full h-12 px-14 text-xl text-white flex justify-center items-center hover:bg-gray-800 hover:text-yellow-300">
+                    <i class="fa-regular fa-rabbit w-6"></i>
+                    <p class="ml-2 w-full menu-items">Hoạt Hình</p>
+                </div>
+                <div id="tv-shows"
+                    class="menu-item cursor-pointer w-full h-12 px-14 text-xl text-white flex justify-center items-center hover:bg-gray-800 hover:text-yellow-300">
+                    <i class="fa-regular fa-tv-retro w-6"></i>
+                    <p class="ml-2 w-full menu-items">TV Shows</p>
+                </div>
+            </div>
+            <div id="bot-sidebar" class="h-20 w-full flex flex-col justify-center items-center">
+                <div
+                    class="cursor-pointer w-full h-12 px-14 text-xl text-white flex justify-center items-center hover:bg-gray-800 hover:text-yellow-300">
+                    <i class="fa-regular fa-user w-6"></i>
+                    <p class="ml-2 w-full menu-items">Đăng Nhập</p>
+                </div>
+            </div>
+        </nav>
+        <section id="content" class="flex-1 w-full h-full overflow-y-scroll p-8 bg-black">
+
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/main.js" type="module"></script>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+img{
+    width: 30%;  /*30+30+30 = 90% (3 pic in row)*/
+    margin: 1.666666666666667%; 
+    /* or calc(10%/6) */
+}
+
+/* 10% / 6 left and right of 3 pic = 1.666666666666667 % */
+
+nav{
+    transition: all 1s ease-out;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    margin-left: calc(10%/6);
+    padding: 1.2em 0;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5em;
+}
+
+nav:hover{
+    transition: all 1s ease-out;
+    text-transform: uppercase;
+    border-bottom: 2px solid #1d0000;
+    width: 30%;
+    margin-left: calc(10%/6);
+    padding: 1.2em 0;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5em;
+}
+
+img:hover{
+    box-shadow: 0 0.5em 0.5em -0.4em #3f3f3c;
+    transform: translateY(-0.25em);
+    transition: 0.75s;
+}

@@ -1,0 +1,18 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: inline-block;
+    border: 2px solid black;
+    margin: 2px;
+}
+
+#middle{
+    background-color: #81b29a;
+}
+
+#fix #middle{
+    position: fixed;
+    top:0px;
+    left: 0px;
+}
