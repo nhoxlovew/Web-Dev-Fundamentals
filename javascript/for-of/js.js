@@ -29,3 +29,9 @@ for(let scorce of scores) {
 
 console.log(total / scores.length);
 
+
+setTimeout(() => {
+  console.log("Hello")
+},3000)
+
+

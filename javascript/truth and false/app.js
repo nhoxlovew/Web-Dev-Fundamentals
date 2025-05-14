@@ -12,3 +12,12 @@ if (0) {
 } else {
     console.log("Falsesy")
 }
+
+
+
+const itCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+
+for (let i = 0; i < itCompanies.length; i++) {
+  console.log(itCompanies[i]);
+}
+console.log(itCompanies[i]);
