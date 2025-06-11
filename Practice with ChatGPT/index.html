@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Color Changer</title>
+</head>
+<body>
+  <h1>Welcome to My Colorful Page</h1>
+  <button onclick="changeColor()">Change Background Color</button>
+
+  <script>
+    function changeColor() {
+      const userColor = prompt("Enter a color (like 'red', '#00ff00', or 'rgb(0,0,255)')");
+      if (userColor) {
+        document.body.style.backgroundColor = userColor;
+      }
+      
+    }
+  </script>
+</body>
+</html>
