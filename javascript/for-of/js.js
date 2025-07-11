@@ -22,7 +22,7 @@ const testScores = {
 
 let total = 0;
 let scores = Object.values(testScores);
-for(let scorce of scores) {
+for (let scorce of scores) {
   total += scorce;
   // console.log(total / scores.length);
 }
@@ -32,6 +32,6 @@ console.log(total / scores.length);
 
 setTimeout(() => {
   console.log("Hello")
-},3000)
+}, 3000)
 
 
